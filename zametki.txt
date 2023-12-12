@@ -1,0 +1,17 @@
+Для создания проекта
+django-admin startproject <название проекта> .
+
+Для создания приложения
+python3 manage.py startapp <название приложения>
+
+в config/settings.py закидываем название приложения в INSTALLED_APPS
+
+миграции:
+python3 manage.py makemigrations   (commit)
+python3 manage.py migrate   (push)
+
+запуск проекта:
+python3 manage.py runserver
+
+создание супер юзера:
+python3 manage.py createsuperuser
